@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RespostaController">
+    <children>
+        <Label fx:id="lblTitleResposta" layoutX="27.0" layoutY="14.0" prefHeight="31.0" prefWidth="156.0" text="Resposta" textFill="#59ab3f">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbResposta" alignment="TOP_LEFT" layoutX="26.0" layoutY="71.0" prefHeight="283.0" prefWidth="549.0" />
+        <Button fx:id="btnMostrarResposta" layoutX="443.0" layoutY="354.0" mnemonicParsing="false" onAction="#desenharResposta" text="Mostrar resposta" />
+    </children>
+</AnchorPane>

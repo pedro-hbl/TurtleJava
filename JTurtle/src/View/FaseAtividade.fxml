@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="lbAtiv1" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AtivController">
+    <children>
+        <Label fx:id="lbTitleAtiv" layoutX="14.0" layoutY="14.0" prefHeight="44.0" prefWidth="193.0" text="Atividade 1" textFill="#48b922">
+            <font>
+                <Font size="23.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbAtivid" alignment="TOP_LEFT" layoutX="14.0" layoutY="64.0" prefHeight="262.0" prefWidth="569.0">
+        </Label>
+        <Button fx:id="btnProxima" layoutX="514.0" layoutY="348.0" mnemonicParsing="false" onAction="#nextLevel" text="Próxima" />
+        <Button fx:id="btnVoltar" layoutX="21.0" layoutY="348.0" mnemonicParsing="false" onAction="#backScene" text="Voltar" />
+        <Button fx:id="btnDesenhar" layoutX="420.0" layoutY="348.0" mnemonicParsing="false" onAction="#toDraw" text="Desenhar" />
+        <Button fx:id="btnResposta" layoutX="328.0" layoutY="348.0" mnemonicParsing="false" onAction="#mostrarResposta" text="Resposta" />
+    </children>
+</AnchorPane>

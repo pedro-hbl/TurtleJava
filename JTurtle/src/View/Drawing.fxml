@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DrawingController">
+    <children>
+        <VBox alignment="CENTER" prefHeight="75.0" prefWidth="800.0" AnchorPane.bottomAnchor="525.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Label fx:id="lblTitle" contentDisplay="CENTER" prefHeight="65.0" prefWidth="293.0" text="  Desenhando com Turtle" textFill="#40ae3c">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </Label>
+            </children>
+        </VBox>
+        <HBox alignment="CENTER" layoutY="73.0" prefHeight="500.0" prefWidth="800.0" spacing="30.0">
+            <children>
+                <VBox alignment="CENTER" prefHeight="456.0" prefWidth="196.0" spacing="10.0">
+                    <children>
+                  <Text fx:id="txtPosicao" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="152.6708984375">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="txtAngulo" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="167.6708984375">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="txtPen" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="167.6708984375">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                        <Button fx:id="btnForward" mnemonicParsing="false" prefHeight="31.0" prefWidth="84.0" text="forward" />
+                        <Button fx:id="btnBackward" mnemonicParsing="false" text="backward" />
+                  <Button fx:id="btnSetAngle" mnemonicParsing="false" text="set angle" />
+                  <Button fx:id="btnRight" mnemonicParsing="false" prefHeight="31.0" prefWidth="79.0" text="right" />
+                  <Button fx:id="btnLeft" mnemonicParsing="false" prefHeight="31.0" prefWidth="82.0" text="left" />
+                  <Button fx:id="btnPen" mnemonicParsing="false" prefHeight="31.0" prefWidth="83.0" text="pen" />
+                        <Button fx:id="btnDraw" mnemonicParsing="false" text="Desenhar" textFill="#26a80c" />
+                        <Button fx:id="btnDelete" mnemonicParsing="false" prefHeight="31.0" prefWidth="81.0" text="Apagar" textFill="#d02f2f" />
+                    </children>
+                </VBox>
+                <TextArea fx:id="txtArea" prefHeight="487.0" prefWidth="541.0" promptText="Os comandos executados pelo turtle irão aparecer aqui." />
+            </children>
+        </HBox>
+    </children>
+</AnchorPane>

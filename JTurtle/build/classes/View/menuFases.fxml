@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MenuPrincipalController">
+    <children>
+        <StackPane prefHeight="104.0" prefWidth="600.0">
+            <children>
+                <Label alignment="CENTER" prefHeight="88.0" prefWidth="251.0" text="Fases" textFill="#2c8028">
+                    <font>
+                        <Font size="37.0" />
+                    </font>
+                </Label>
+            </children>
+        </StackPane>
+        <HBox alignment="CENTER" prefHeight="116.0" prefWidth="600.0" spacing="50.0">
+            <children>
+                <Button fx:id="btnFase1" mnemonicParsing="false" onAction="#btnFase1" prefHeight="60.0" prefWidth="109.0" text="Fase 1" />
+                <Button fx:id="btnFase2" mnemonicParsing="false" onAction="#btnFase2" prefHeight="60.0" prefWidth="107.0" text="Fase 2" />
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+            <children>
+                <Button fx:id="btnFase3" mnemonicParsing="false" onAction="#btnFase3" prefHeight="60.0" prefWidth="113.0" text="Fase 3" />
+            </children>
+        </HBox>
+    </children>
+</VBox>
